@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+
+\node at (1,-1.5) (v2) {};
+\draw[->, thick] (-2.5,0) node (v1) {} -- (1,0);
+\draw [<->, orange, thick](v1.center) -- (v2.center)node [midway,above right]{$r$};
+\draw  [fill] (v2) circle (0.3) node [white]{$O$};
+\draw [<->] (1.5,0) -- (1.5,-1.5) node [midway, right]{$b$};
+\draw [->, thick, blue](-2.5,0) -- (-1.5,0);
+\node at (-2,0.2) [blue] {$\vec{v}_\infty$};
+\draw [fill] (v1) circle (0.1);
+\node at (-2.5,0.5) {$m$};
+\end{tikzpicture}

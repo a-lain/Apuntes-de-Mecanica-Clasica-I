@@ -1,0 +1,13 @@
+\begin{tikzpicture}
+
+\draw  (-1,0.5) circle (0.70);
+\draw  (0,-0.5) circle (0.70);
+\draw [->, thick, blue](-3,0.5) -- (-1,0.5) node [midway, above] (v1) {$\vec{p}_1$};
+\draw [dashed] (-3,-0.5) -- (1,-0.5);
+\draw [->, thick, purple] (0,-0.5) -- (1,-1.5) node [midway, left]{$\vec{q}_2$};
+\draw [<->, thick, brown] (-2.5,0.5) -- (-2.5,-0.5)node [midway, right]{$b$};
+\draw [->, thick, teal] (-1,0.5) node (v2) {} -- (0,1.5)node [midway, above]{$\vec{q}_1$};
+\draw [purple] (-0.1981,1.253) arc (43.1987:0:1.1)node [midway, right]{$\theta$};
+\draw [dashed] (v2) -- (1,0.5);
+\draw [magenta](0.643,-1.1297) arc (-44.4013:-1.2:0.9)node [midway, right]{$\alpha$};
+\end{tikzpicture}

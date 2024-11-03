@@ -1,0 +1,18 @@
+\begin{tikzpicture}
+\draw [dashed](-3,0) node (v1) {} -- (1.5,0);
+\draw [fill] (v1) circle (0.1);
+\draw [->,thick, blue] (v1) -- (-2,0) node [midway, below]{$\vec{v}$};
+\draw  plot[smooth, tension=.7] coordinates {(v1) (-1.4,0.5) (0,1.5) (2,4.2)};
+
+
+\draw [dashed, purple](-0.6544,0.8793)--(0.7,-0.8) node (v2) {};
+
+\draw [purple](-0.5,0.7) -- (-0.3285,0.8194) -- (-0.478,0.9997);
+\draw [fill] (v2) circle (0.1);
+\node at (1.55,-1) {$Q=+Zq_e$};
+\draw [<->, thick, orange](0.7,0) -- (v2.center) node [midway, right]{$b$};
+\node at (-3.3,0) {$q$};
+\node [purple] at (0.2,0.4) {$r_\text{m\'in}$};
+\draw [dashed] (-2,-2) -- (1.8,3.9);
+\draw [red](0.3717,1.6887) arc (57.5996:0:2.0001)node [midway, right]{$\theta$};
+\end{tikzpicture}

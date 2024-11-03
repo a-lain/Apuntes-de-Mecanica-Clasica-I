@@ -1,0 +1,16 @@
+\begin{tikzpicture}
+
+\draw [ultra thick] (-3.5,2) -- (2.5,2) -- (-0.5,2) node (v1) {} -- (1,-1.5);
+
+\node (p1) at (1,-1.5) {};
+\draw [fill] (p1) circle [radius=0.3];
+\node (p2) at (-0.5,2) {};
+\draw [fill] (p2) circle [radius=0.1];
+\draw [->,dashed, thick, blue] (v1) -- (-0.5,-3) node [blue, left, near end] {Y};
+\draw [->,dashed, thick, blue] (v1) -- (5,2) node [blue, above, near end] {X};
+\node at (1.5,-1.5) [right, scale=2] {$m$};
+\node at (0.6,0.3) [right, scale=2] {$L$};
+\draw [->, dashed, thick, orange] (v1) -- (-0.5,3.5) node [orange, right, near end] {$h$};
+
+\draw [dashed] (0.935686,-1.626128) arc (-68.399995:-90:3.9);
+\end{tikzpicture}

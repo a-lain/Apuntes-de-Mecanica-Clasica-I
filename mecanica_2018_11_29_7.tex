@@ -1,0 +1,18 @@
+\begin{tikzpicture}
+
+\draw [fill, orange] (-2.5,0.5) node (v1) {} circle (0.3);
+\draw [fill, brown] (1,0.5) node (v2) {} circle (0.3);
+\draw [->, thick] (v1) -- (-1,0.5)node [midway, above]{$\vec{v}_1$};
+\draw [->, thick]  (v2) -- (2.5,0.5)node [midway, above]{$\vec{v}_2$};
+\node at (-3,0) {$m_1$};
+\node at (0.5,0) {$m_2$};
+\draw [dashed](3.5,2.5) -- (3.5,-1.5);
+\node at (3.5,3) {Choque};
+\draw [fill, orange] (5,0.5) node (v1) {} circle (0.3);
+\draw [fill, brown] (8.5,0.5) node (v2) {} circle (0.3);
+\draw [->, thick] (v1) -- (6.5,0.5)node [midway, above]{$\vec{u}_1$};
+\draw [->, thick]  (v2) -- (10,0.5)node [midway, above]{$\vec{u}_2$};
+\node at (4.5,0) {$m_1$};
+\node at (8,0) {$m_2$};
+\draw [dashed](3.5,2.5) -- (3.5,-1.5);
+\end{tikzpicture}

@@ -1,0 +1,22 @@
+\begin{tikzpicture}
+\draw  [dashed, rotate=-18](2,0.5) ellipse (3 and 1.5);
+
+\draw [fill, brown, rotate=-18] (0,0.5) node (v1) {} circle (1);
+\draw [rotate=-18] (v1.center) -- (0.8,-0.1);
+\node at (0.7,0) {$R$};
+\draw [<->, thin, dashed, rotate=-18] (-0.6,2.3) -- (0.7,-1.6);
+\draw [<->, thin, dashed, rotate=-19] (-1.8,-0.1) -- (2,1.2);
+\draw [|-|, green, rotate=-18] (-0.7,0.5) -- (v1.center) node [midway, above]{$r_\text{m\'in}$};
+\draw  [|-|, purple, rotate=-18]  (v1.center) -- (5,0.5)node [midway, above]{$r_\text{m\'ax}$};
+\node at (2.1,0.7) {X};
+\node at (0.3,2.4) {Y};
+\draw  [fill, rotate=-18](-0.4,1.4) circle (0.05);
+\draw [->, very thick, orange,rotate=-18](-0.4,1.4) -- (0.6,1.9)node [midway, above right]{$\vec{v}$};
+\draw [thick, gray, rotate=-18] (0.95,0.82) arc (18.5:114:1)node [midway, right]{$\theta_1$};
+\draw [thick, blue, rotate=-18](0.95,0.82) arc (20:-108:1)node [midway, right=4]{$\theta_2$};
+\draw [thick, yellow, rotate=-18](-0.4,0.5) arc (-180:-168:0.7)node [midway,below]{$\theta_0$};
+\draw [thick, |-|, rotate=-18](-0.4067,1.4135) arc (113.9991:180:0.9999)node [midway, left=2, scale=0.7]{$\pi-\theta_1+\theta_0$};
+\draw [thick, |-|, rotate=-18] (-1,0.52) arc (-182.0017:-108:1)node [midway, below left, scale=0.7]{$\pi-\theta_2+\theta_0$};
+\draw (v1.center) -- (-0.1,2.5);
+\draw [pink, thick] (-0.0558,2.1981) arc (93.9994:12:0.8) node [midway, below left]{$\alpha$};
+\end{tikzpicture}

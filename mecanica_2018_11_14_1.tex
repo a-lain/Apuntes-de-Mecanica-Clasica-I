@@ -1,0 +1,25 @@
+\begin{tikzpicture}
+\node at (0,0) {};
+\draw [<->] (-4,0) -- (4,0);
+\draw  [<->](0,3) -- (0,-3);
+\draw [dashed, purple] (-3,3) -- (3,-3);
+\draw [dashed, purple] (3,3) -- (-3,-3);
+
+\draw  [fill](1.5,0) node (v1) {} circle (0.1);
+\draw  [fill](-1.5,0) circle (0.1);
+
+
+\node at (-1.5,-0.5) {O};
+\node at (-3.5,-2) {Rama atractiva};
+\node at (4,-2.5) {Rama repulsiva};
+\node at (-3.5,1.5) [red]{$\cos{\theta - \theta _0}<0$};
+\node [orange] at (3.5,1.5) {$\cos{\theta - \theta _0}>0$};
+
+\draw [orange, thick,->] (2.2,0) arc (0:-45:2.2) node [midway, right]{$\theta - \theta _0$};
+\draw   [orange, thick,->](2.4,0) arc (0:45:2.4)node [midway, right]{$\theta - \theta _0$};
+\draw  [red, thick,->] (1.1,0) arc (0:133.2:1.1)node [midway,above]{$\pi -\theta + \theta _0$};
+\draw  [red, thick,->] (0.8996,-0.0283) arc (-1.8018:-131.4:0.9)node [midway, below]{$\pi - \theta + \theta _0$};
+\draw[scale=0.5,domain=-2.5:2.5,smooth,variable=\x,blue] plot ({cosh(\x)}, {sinh(\x)});
+\draw[scale=0.5,domain=-2.5:2.5,smooth,variable=\x,blue] plot ({-cosh(\x)}, {sinh(\x)});
+
+\end{tikzpicture}

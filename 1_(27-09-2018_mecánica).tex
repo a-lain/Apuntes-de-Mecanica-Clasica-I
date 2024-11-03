@@ -1,0 +1,9 @@
+\begin{tikzpicture}
+
+\draw  plot[smooth, tension=.7] coordinates {(0,-0.5) (1,-0.5) (2,0) (2.5,0.5) (2.5,1.5) (2.5,2.5) (3,4)};
+\node (p1) at (0,-0.5) {}; \draw [fill] (p1) circle [radius=0.1];
+\node (p2) at (3,4) {}; \draw [fill] (p2) circle [radius=0.1];
+\draw [dashed] (p1) -- (p2);
+
+\node at (3,0.5) {$y(x)$};
+\end{tikzpicture}

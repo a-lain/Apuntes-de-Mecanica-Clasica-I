@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+\draw  [fill](1,2.5) node (v2) {} circle (0.15);
+\draw  [fill](2.5,0) node (v3) {} circle (0.15);
+\draw [->, thick, orange](-1,0) node (v1) {} -- (1,2.5) node [midway, left]{$\vec{r}_1$};
+\draw [->, thick, pink](v1.center) -- (2.5,0) node [midway, below]{$\vec{r}_2$};
+\draw [->, thick, blue](1,2.5) -- (2.5,0) node [midway, right]{$\vec{l}$};
+
+\draw [dashed](v2) -- (2,3.5) node (v4) {};
+\draw [dashed](v3) -- (3,1.8) node (v5) {};
+\draw [blue,->] (v4.center) -- (v5.center) node [midway,right] {$\vec{l}$};
+\draw  (v4) circle (0.15);
+\draw  (v5) circle (0.15);
+\node at (1.4,3.1) [left]{$d \vec{r}_1$};
+\node at (3,0.8) {$d\vec{r}_2$};
+\end{tikzpicture}

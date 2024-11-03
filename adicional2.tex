@@ -1,0 +1,23 @@
+\begin{tikzpicture}
+\draw [->, thin] (-1.9,0) -- (3.3,0);
+\draw  [fill=lightgray](2,0) ellipse (0.2 and 1);
+\draw  [fill=white](2,0) ellipse (0.1 and 0.8);
+\draw  [fill=lightgray](-1,0) node (v1) {} ellipse (0.1 and 0.5);
+\draw  [fill=white](-1,0) ellipse (0.05 and 0.4);
+
+
+\draw (1.8,0) -- (2.2,0);
+
+\draw (-1.05,0) -- (-0.95,0);
+\draw (0.7,0.1) -- (0.7,-0.1);
+\node at (0.7,-0.3) {$0$};
+\draw [<->, orange](-1.5,0) -- (-1.5,0.4) node [midway, left]{$b$};
+\draw (-1.9,0.4) -- (0.4,0.4);
+\draw [->] plot[smooth, tension=.7] coordinates {(0.4,0.4) (1,0.5) (1.5,0.7) (2.8,1.5)};
+\draw (-1.9,0.5) -- (0.4,0.5);
+\draw [->] plot[smooth, tension=.7] coordinates {(0.4,0.5) (1.4,0.6) (2.8,1.1)};
+\draw [->, thick, purple](2.7,0) arc (0:28.8:2)node [midway, right]{$\theta$};
+\node at (3.6,-0.1) {$z$};
+\node at (2,-1.2) {$d\sigma=2\pi  r\sin{\theta}d\theta$};
+\node at (-0.9,-0.8) {$d\sigma=2\pi bdb$};
+\end{tikzpicture}

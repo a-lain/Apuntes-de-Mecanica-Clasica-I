@@ -1,0 +1,31 @@
+\begin{tikzpicture}
+
+\draw [<->] (-0.5,2) -- (-0.5,1) node (v1) {} -- (0.5,1);
+\draw [->](v1.center) -- (-1,0.5);
+\draw  [fill](0.4,4.3) circle (0.22) node [above=3] (v3) {$m_1$};
+\draw  [fill](2.5,2.9) circle (0.22) node [above=3] (v2) {$m_2$};
+\draw [->, thick, blue] (v1.center) -- (2.5,2.9) node [midway, above]{$\vec{r}_2$};
+\draw [->, thick, brown](v1.center) -- (0.4,4.3)node [midway, above left]{$\vec{r}_1$};
+\draw[->, ultra thick, purple] (2.5,2.9) node (v5) {} -- (0.4,4.3)node [midway, above] (v4) {$\vec{r}$};
+
+\draw [very thick, dashed, ->, green] (0.4,4.3) node (v6) {} -- (1.2,3.8)node [midway, below] (v4) {$\vec{F}$};
+\draw [very thick, dashed, ->, green]  (2.5,2.9) node (v7) {} -- (1.6,3.5)node [midway, below left] (v4) {$-\vec{F}$};
+\draw[->, thick, red] (v6) -- (0.5,3.3);
+\draw[->, thick,red] (v7) -- (2.7,1.9);
+\node [red] at (0.4,3) {$\vec{F}_1$};
+\node at (2.9,1.8) [red] {$\vec{F}_2$};
+\draw [->, thick, ] (v1.center) -- (1.4,3.6);
+\node at (1,2.8) {$\vec{R}$};
+
+\draw [<->] (7.3,3.1) -- (7.3,2.1) node (v1) {} -- (8.3,2.1);
+\draw [->](v1.center) -- (6.8,1.6);
+\draw  [fill](5.7,3.1) circle (0.22) node [above=3] (v3) {$m_1$};
+\draw  [fill](8.9,1.1) circle (0.22) node [above=3] (v2) {$m_2$};
+\draw [-> , thick,orange] (v1.center) -- (8.9,1.1) node [midway, below] (v9) {$\vec{r}^*_2$};
+\draw [->, thick, green](v1.center) -- (5.7,3.1)node [midway, below] (v8) {$\vec{r}^*_1$};
+\node at (7.1,3.9) {Misma situaci\'on desde observador CM};
+\draw [->, thick, red](5.7,3.1) -- (6,1.9);
+\draw [->, thick, red](8.9,1.1) -- (9.2,0.1);
+\node [red] at (5.9,1.6) {$\vec{F}_1$};
+\node [red] at (8.8,0) {$\vec{F}_2$};
+\end{tikzpicture}

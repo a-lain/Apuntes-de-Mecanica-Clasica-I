@@ -1,0 +1,14 @@
+\begin{tikzpicture}
+
+\draw [ultra thick](-3.6,1.8) -- (3.6,1.8);
+\draw (0,1.8) node (v2) {} -- (0,-1.2) node (v1) {};
+
+\draw [fill] (v1) circle (0.25);
+\draw [->, blue,very thick] (v1) -- (0,-2.2) node [midway, right] {$\Vec{P}$};
+\draw [->, blue,very thick] (v1) -- (0,-0.2) node [midway, right] {$\Vec{T}$};
+
+\draw [dashed, orange](0,-1.2) arc (-90:0:3);
+\draw [dashed, orange](0,-1.2) arc (-90:-180:3);
+
+\draw [red] (0,1.8) -- (1.8,-0.6) node [midway, above right] {$r$};
+\end{tikzpicture}

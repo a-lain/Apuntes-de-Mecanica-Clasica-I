@@ -1,0 +1,16 @@
+\usetikzlibrary{arrows}
+\begin{tikzpicture}
+
+\draw [<->, very thick](-2,3) -- (-2,-1) -- (2,-1);
+\node [above, scale=2] at (2.5,-1.5) {$\theta$};
+\node [scale=2] at (-2,3.5) {$x$};
+
+
+\draw (-1.4,-1) node (v1) {} -- (-1.4,-1.2);
+\draw (0.8,-1) -- (0.8,-1.2);
+\node at (-1.4,-1.6) {$0$};
+\node at (0.8,-1.6) {$2\pi$};
+\draw (-1.4,-1) -- (0.8,-0.2);
+\draw (-1.4,-0.2) -- (0.8,0.6);
+\draw (-1.4,0.6) -- (0.8,1.4);
+\end{tikzpicture}

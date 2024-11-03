@@ -1,0 +1,18 @@
+\begin{tikzpicture}
+
+
+\draw  [dashed, ultra thin](-2.5,2.6) node (v1) {} ellipse (1.9 and 0.5);
+\draw [thick, orange,->](v1.center) -- (-1.7,3.1) node (v2) {};
+\draw [very thin,<-](v2.center) -- (-1.7,2.3) node (v3) {};
+\draw [very thin,->](v1.center) -- (v3.center);
+\draw [dashed, ultra thin](-4.4,2.6) -- (-0.6,2.6);
+\node at (-1.89,2.47) {$r$};
+\node at (-1.61,2.865) {$z$};
+
+\draw [<->, thick](-0.4,2.6) -- (v1.center) -- (-2.6,2);
+\draw [purple,->](-2.5344,2.2422) arc (-102.3116:-28.8421:0.4)node [midway, below=-2]{$\varphi$};
+\draw [->, thick](v1.center) -- (-2.5,3.6);
+\node at (-2.8,1.9) {X};
+\node at (-0.4,2.8) {Y};
+\node at (-2.6,3.7) {Z};
+\end{tikzpicture}

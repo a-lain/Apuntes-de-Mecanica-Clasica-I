@@ -1,0 +1,10 @@
+\begin{tikzpicture}
+
+\draw  (-1,0) ellipse (2 and 1.5);
+\draw [dashed](-4,0) -- (2,0);
+\draw  [fill](-2.3,0) node (v1) {} circle (0.1);
+\node at (-2.3,-0.3) {$O$};
+\draw [|-|, thick, red] (-3,0) -- (v1.center) node [midway, above]{$r_1$};
+
+\draw [|-|, thick, green](v1.center) -- (1,0)node [midway, above]{$r_2$};
+\end{tikzpicture}

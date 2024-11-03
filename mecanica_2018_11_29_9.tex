@@ -1,0 +1,18 @@
+\begin{tikzpicture}
+
+\draw [fill, blue] (-1.5,0.5) node (v1) {} circle (0.3);
+\draw [->, thick] (v1.center) -- (0,0.5) node [midway, above]{$\vec{p}_1$};
+\draw [dashed] (-2,0.5) -- (5,0.5);
+\draw [dashed](4,-0.5) -- (1,1.5);
+\draw [fill, blue] (2.5,0.5) node (v1) {} circle (0.3);
+\draw [->, thick] (v1.center) -- (4,1.5) node [midway, above]{$\vec{q}_1$};
+\draw[->, thick, purple] (v1.center) -- (4,-0.5)node [midway, below] (v2) {$\vec{q}_2$};
+%\node at (0,-0.8) {S.Lab. $\implies p_2=0$};
+\node at (-2,0) {$m_1$};
+\node at (2,0) {$m_2$};
+
+\draw (3.9997,0.5314) arc (1.1995:33.6:1.5)node [midway, right]{$\theta$};
+\draw [purple] (3.6661,-0.2747) arc (-33.5981:0:1.4)node [midway, right]{$\alpha$};
+\draw  plot[smooth, tension=.7] coordinates ;
+%\node at (1.2,2.1) {Dirección de las interacciones};
+\end{tikzpicture}

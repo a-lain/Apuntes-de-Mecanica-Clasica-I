@@ -1,0 +1,18 @@
+\begin{tikzpicture}
+
+\draw [fill, yellow] (-2,0) circle (0.5) node (v1) {};
+\draw [brown](-2,0) node (v2) {} -- (0,0) node[midway, above]{$r_\text{m\'in}$};
+\draw [orange,|-|] (-2,-1) -- (2,-1)node[midway, above]{$R$};
+\draw [dashed] (v2) circle (4);
+\draw  [fill,blue](2,0) circle (0.25);
+\node at (2.5,0) {$T$};
+\node at (-2.5,0.5) {$S$};
+\draw [dashed, ultra thin] (-2,4) -- (-3,5);
+\draw [purple] (-2,5) arc (95.275:148.1433:0.8) node[midway, above ,scale=1.5]{$\beta$};
+\draw [dashed, ultra thin] (-2,4) -- (-2,5.5);
+\draw [green] (-2.5,4.5) arc (113.3342:183.6:0.5) node[midway, left,scale=1.5]{$\alpha$};
+\draw [dashed, ultra thin](-3.2,4) -- (-0.9,4);
+\draw[thick, scale=0.5,domain=-9:0,smooth,variable=\x,blue,dashed] plot (\x,{4*sqrt(sqrt(\x*\x))});
+\draw[thick, scale=0.5,domain=-9:0,smooth,variable=\x,blue,dashed] plot (\x,{-4*sqrt(sqrt(\x*\x))});
+
+\end{tikzpicture}

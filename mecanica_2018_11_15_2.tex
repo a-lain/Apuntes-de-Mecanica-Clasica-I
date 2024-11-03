@@ -1,0 +1,16 @@
+\begin{tikzpicture}
+
+\draw  (0,0) ellipse (2 and 1.5);
+\draw [fill] (-1.5,0) node (v1) {} circle (0.1);
+\draw  [fill] (1.5,0) node (v2) {} circle (0.1);
+\draw [orange, thick] (v1.center) -- (0,1.5) node (v3) {};
+\draw [orange, thick] (v2.center) -- (v3.center);
+\draw [dashed] (v3.center) -- (0,-1.5);
+\draw [dashed] (-2,0) -- (2,0);
+\draw [|-|,purple, thick] (-1.5,-0.5) -- (1.5,-0.5) node [midway, below]{$2c$};
+\draw  [|-|,orange, thick](0,2) -- (2,2)node [midway, below]{$a$};
+\node [orange] at (-0.5,0.7) {$a$};
+\node [orange] at (0.6,0.7) {$a$};
+\draw[scale=0.5,domain=-2.5:2.5,smooth,variable=\x,blue] plot ({cosh(\x)}, {sinh(\x)});
+\draw[scale=0.5,domain=-2.5:2.5,smooth,variable=\x,blue] plot ({-cosh(\x)}, {sinh(\x)});
+\end{tikzpicture}

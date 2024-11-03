@@ -1,0 +1,1151 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\lang spanish
+Presentamos la transformada de Fourier:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+F_{m}=\frac{1}{T}\int_{0}^{T}F\left(t\right)e^{-im\omega t}dt
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Ahora:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+\frac{1}{T}\int_{0}^{T}e^{-i\left(n-m\right)\omega t}dt=\delta_{n,m}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Ahora, recordando la definición de 
+\begin_inset Formula $F\left(t\right)$
+\end_inset
+
+ y obteniendo su transformada de Fourier:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+F_{m}=\frac{1}{T}\int_{0}^{T}\left(\sum_{n}F_{n}e^{in\omega t}\right)e^{-im\omega t}dt=\sum_{n}F_{n}\frac{1}{T}\int e^{i\omega\left(n-m\right)t}=\sum_{n}F_{n}\delta_{n,m}=F_{m}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Ahora, si tenemos una fuerza cualquiera (no tiene por qué ser periódica):
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+F\left(t\right)=\int F_{\omega}e^{i\omega t}dt
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\lang spanish
+09/11/2018 Dibujo 6 (elipse)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+l=r\left[e\cos\left(\theta-\theta_{0}\right)\mp1\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Cuando 
+\begin_inset Formula $r\rightarrow\infty$
+\end_inset
+
+, debe ser:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+\cos\left(\theta-\theta_{0}\right)=\pm\frac{1}{e}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+donde la solución positiva se corresponde con 
+\begin_inset Formula $k>0$
+\end_inset
+
+ (fuerzas repulsivas) y la solución negativa para fuerzas atractivas 
+\begin_inset Formula $k<0$
+\end_inset
+
+.
+ La hipérbola representada antes puede corresponderse con dos valores de
+ 
+\begin_inset Formula $\theta_{0}$
+\end_inset
+
+: 
+\begin_inset Formula $\theta_{0}=0$
+\end_inset
+
+ o 
+\begin_inset Formula $\theta_{0}=\pi$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Si 
+\begin_inset Formula $\theta_{0}=0$
+\end_inset
+
+, entonces obtenemos 
+\begin_inset Formula $\cos\theta=\pm\frac{1}{e}$
+\end_inset
+
+, donde el valor positivo se corresponde con la rama repulsiva de la hipérbola
+ y el valor negativo se corresponde con la rama atractiva de la hipérbola.
+ En este caso es:
+\begin_inset Formula 
+\[
+\begin{matrix} & r_{1}=\frac{l}{e\mp1}\\
+r_{1,at}=\frac{1}{e+1} &  & r_{1,re}=\frac{1}{1-e}
+\end{matrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang spanish
+Si, por el contrario, 
+\begin_inset Formula $\theta_{0}=\pi$
+\end_inset
+
+, entonces obtenemos:
+\begin_inset Formula 
+\[
+\pm\frac{1}{e}=\cos\left(\theta-\pi\right)=\cos\left(\pi-\theta\right)=-\cos\theta\Leftrightarrow\cos\theta=\mp\frac{1}{e}
+\]
+
+\end_inset
+
+En este caso, el valor negativo se corresponde con la rama repulsiva, y
+ el positivo se corresponde con la rama atractiva.ç
+\end_layout
+
+\begin_layout Example
+
+\color green
+\lang spanish
+14/11/2018 Dibujo 2 (trayectoria Tierra)
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\lang spanish
+15/11/2018 Dibujo 1 (parábola Andrés)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En lugar de tener un único proyectil y un único blanco, ahora imaginemos
+ que tenemos un montón de partículas incidentes de la misma masa y lanzadas
+ con la misma velocidad contra un conjunto de blancos del mismo tamaño.
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\lang spanish
+21/11/2018 Dibujo 4 (flujo, esferas)
+\end_layout
+
+\begin_layout Definition
+
+\lang spanish
+Llamamos flujo de partículas o intensidad del haz a:
+\end_layout
+
+\begin_layout Definition
+
+\lang spanish
+\begin_inset Formula 
+\[
+\phi:=\frac{\text{\#partículas}}{At}
+\]
+
+\end_inset
+
+donde 
+\begin_inset Formula $A$
+\end_inset
+
+ es el área de la superficie y 
+\begin_inset Formula $t$
+\end_inset
+
+ es el tiempo.
+ Si además, definimos:
+\end_layout
+
+\begin_layout Definition
+
+\lang spanish
+\begin_inset Formula 
+\[
+N=\frac{\text{\#partículas}}{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Definition
+
+\lang spanish
+Entonces, podemos dar el flujo en forma diferencial:
+\end_layout
+
+\begin_layout Definition
+
+\lang spanish
+\begin_inset Formula 
+\[
+\Phi=\frac{dN}{dA}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+También, podemos escribir 
+\begin_inset Formula $N$
+\end_inset
+
+ como:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+N=\phi\pi R^{2}=\phi\sigma
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+donde 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ es la sección eficaz total.
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\lang spanish
+21/11/2018 Dibujo 5 (choque, detector, 
+\begin_inset Formula $db$
+\end_inset
+
+, 
+\begin_inset Formula $d\theta$
+\end_inset
+
+, dibujo complementario, poner a la derecha)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Alternativamente, gracias al dibujo anterior, podemos definir la sección
+ eficaz de la siguiente forma:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+d\sigma=bd\varphi\left|db\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El ángulo sólido es:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+d\Omega=\frac{dA}{L^{2}}=\frac{L^{2}\sin\theta d\theta d\varphi}{L^{2}}=\sin\theta d\theta d\varphi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Esto nos permite definir la sección eficaz diferencial:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+\frac{d\sigma}{d\Omega}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Ahora, podemos hacer:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+db=-\frac{R}{2}\sin\frac{\theta}{2}d\theta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+d\sigma=bd\varphi\left|db\right|=\frac{R^{2}}{2}\cos\frac{\theta}{2}\sin\frac{\theta}{2}d\theta d\varphi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+\frac{d\sigma}{d\Omega}=\frac{R^{2}}{4}\Leftrightarrow\sigma=\int d\sigma=\pi R^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+dN=\phi\frac{d\sigma}{d\Omega}\frac{dA}{L^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Definimos 
+\begin_inset Formula $n$
+\end_inset
+
+ como el número de blancos por unidad de volumen:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+n=\frac{\text{\#blancos}}{V}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+
+\color green
+\lang spanish
+22/11/2018 Dibujo 4 (hipérbola 
+\begin_inset Formula $a,b,c$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\lang spanish
+27/11/2018 Dibujo 2 (potencial de un campo constante)
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\lang spanish-mexico
+29/11/2018 Dibujo 10 (choque 
+\begin_inset Formula $\alpha$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+
+\lang spanish-mexico
+En el caso de un choque entre un electrón y un protón:
+\end_layout
+
+\begin_layout Example
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+\frac{m_{1}}{m_{2}}=\frac{1}{1836}=0,2\%
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Por otra parte 
+\begin_inset Formula $\alpha\in\left[0,\frac{\pi}{2}\right]$
+\end_inset
+
+ porque, por la proposición
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Notemos que:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+\alpha\in\left[0,\frac{\pi}{2}\right]
+\]
+
+\end_inset
+
+correspondiéndose 
+\begin_inset Formula $\theta^{*}=0$
+\end_inset
+
+ con 
+\begin_inset Formula $\alpha=\frac{\pi}{2}$
+\end_inset
+
+ y 
+\begin_inset Formula $\theta^{*}=\pi$
+\end_inset
+
+ con 
+\begin_inset Formula $\alpha=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Sabemos que 
+\begin_inset Formula $\theta$
+\end_inset
+
+ depende de 
+\begin_inset Formula $b$
+\end_inset
+
+ (el parámetro de impacto).
+ Nuestro objetivo es expresar 
+\begin_inset Formula $b$
+\end_inset
+
+ en función de 
+\begin_inset Formula $\theta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+b+db\longrightarrow\theta+d\theta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Teníamos:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+d\sigma=b\left|db\right|d\varphi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Por otra parte:
+\begin_inset Formula 
+\[
+dN=N_{1}\phi d\sigma\frac{1}{d\Omega}\frac{dA}{L^{2}}=N_{1}\phi\frac{d\sigma}{d\Omega}\frac{dA}{L^{2}}
+\]
+
+\end_inset
+
+donde 
+\begin_inset Formula $\frac{d\sigma}{d\Omega}$
+\end_inset
+
+ es la sección eficaz.
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\lang spanish-mexico
+04/12/2018 Dibujo 6 (
+\begin_inset Formula $\alpha\neq\alpha'$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Nótese que desde el sistema centro de laboratorio 
+\begin_inset Formula $\alpha\neq\alpha'$
+\end_inset
+
+ de manera que va a ser difícil hallar la relación que buscamos.
+ Por tanto, veamos la situación desde el sistema centro de masas.
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\lang spanish-mexico
+04/12/2018 Dibujo 7 (sección eficaz total)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+m_{1}\vec{v}_{1}=m_{2}\vec{v_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+El volumen de las partículas que chocan es:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+V_{\text{chocan}}=n_{1}\sigma\left(v_{1}+v_{2}\right)dt
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Llamemos 
+\begin_inset Formula $V$
+\end_inset
+
+ al volumen del blanco.
+ Entonces se cumple:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+N=n_{1}\sigma\left(v_{1}+v_{2}\right)dtn_{2}V\Leftrightarrow
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+dN=n_{1}d\sigma\left(v_{1}+v_{2}\right)n_{2}V
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+\phi=n_{1}\left(v_{1}+v_{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+n_{2}V=N_{1}
+\]
+
+\end_inset
+
+donde 
+\begin_inset Formula $N_{1}$
+\end_inset
+
+ es el número de partículas de mi blanco.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+dN=n_{1}n_{2}\left(v_{1}+v_{2}\right)Vd\sigma=N_{1}\phi d\sigma=
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+=N_{1}\phi\frac{d\sigma}{d\Omega^{*}}\frac{dA}{L^{2}}
+\]
+
+\end_inset
+
+donde 
+\begin_inset Formula $d\Omega^{*}=\sin\theta^{*}d\theta^{*}d\varphi$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+\lang spanish-mexico
+No entiendo nada.
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\lang spanish-mexico
+11/12/2018 Dibujo 1 (colisión)
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\lang spanish-mexico
+11/12/2018 Dibujo 3 (colisión con 
+\begin_inset Quotes fld
+\end_inset
+
+bolitas
+\begin_inset Quotes frd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\lang spanish
+11/12/2018 Dibujo 7 (ángulo 
+\begin_inset Formula $\beta$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Donde está mi detector se da 
+\begin_inset Formula $\theta=\beta$
+\end_inset
+
+ y 
+\begin_inset Formula $\alpha=\beta$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+\frac{d\sigma}{d\Omega_{\beta}}=a^{2}\cos\beta\left(\frac{1}{\cos^{4}\beta}+\frac{1}{\sin^{4}\beta}\right)
+\]
+
+\end_inset
+
+donde 
+\begin_inset Formula $d\Omega_{\beta}=\sin\beta d\beta d\varphi$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\lang spanish
+11/12/2018 Dibujo 4 (electrón 
+\begin_inset Quotes fld
+\end_inset
+
+orbitando
+\begin_inset Quotes frd
+\end_inset
+
+ en sistema centro de masas)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para dicho observador, se cumple la segunda ley de Newton 
+\begin_inset Formula $\vec{F}=m\vec{a}$
+\end_inset
+
+.
+ Sin embargo, sea 
+\begin_inset Formula $S'$
+\end_inset
+
+ el mismo sistema visto desde un observador 
+\begin_inset Formula $O'$
+\end_inset
+
+ no inercial de forma que 
+\begin_inset Formula $S':\left(O',x_{1},x_{2},x_{3}\right)$
+\end_inset
+
+ donde 
+\begin_inset Formula $x_{1},x_{2},x_{3}$
+\end_inset
+
+ se llaman ángulos de Euler, entonces para el observador 
+\begin_inset Formula $O'$
+\end_inset
+
+ el equivalente de la segunda ley de Newton queda: 
+\begin_inset Formula $\vec{F}+\vec{F}_{\text{inercia}}=m\vec{a}'$
+\end_inset
+
+.
+ Esto es lo que vamos a ver ahora.
+ Los ejes del observador 
+\begin_inset Formula $O'$
+\end_inset
+
+ son ortonormales al igual que los de 
+\begin_inset Formula $O$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Tenemos dos sistemas de referencia alineados 
+\begin_inset Formula $O_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $O_{2}$
+\end_inset
+
+ a lo largo del eje 
+\begin_inset Formula $z$
+\end_inset
+
+.
+ El vector posición de una partícula es 
+\begin_inset Formula $\vec{r}_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $\vec{r}_{2}$
+\end_inset
+
+, respectivamente.
+ En cualquier sistema de referencia a lo largo del eje 
+\begin_inset Formula $z$
+\end_inset
+
+ se da:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+\frac{d\vec{r}}{dt}=\vec{\omega}\times\vec{r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+\frac{d^{2}\vec{r}}{dt^{2}}=\vec{\omega}\times\frac{d\vec{r}}{dt}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+\Leftrightarrow\ddot{z}=-\frac{g'}{L}z-2i\omega\sin\lambda\dot{z}\Leftrightarrow\ddot{z}+2i\underbrace{\omega\sin\lambda}_{=:\Omega}\dot{z}+\underbrace{\frac{g'}{L}}_{=\omega_{0}^{2}}z=0
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\ddot{z}+2i\Omega\dot{z}+\omega_{0}^{2}z=0
+\]
+
+\end_inset
+
+Ya la solución de esta ecuación diferencial es:
+\begin_inset Formula 
+\[
+z=ae^{-i\Omega t}\cos\left(\omega_{1}t+\varphi\right)
+\]
+
+\end_inset
+
+porque la oscilación es débil al ser 
+\begin_inset Formula $\Omega\ll\omega_{0}$
+\end_inset
+
+ porque 
+\begin_inset Formula $\Omega\sim\omega$
+\end_inset
+
+ y 
+\begin_inset Formula $\omega_{0}^{2}=\frac{g'}{L}$
+\end_inset
+
+.
+ De forma que si el periodo del término de Faucault es mucho menor que un
+ día, será 
+\begin_inset Formula $\Omega\ll\omega_{0}$
+\end_inset
+
+.
+ En la ecuación anterior, obtenemos: 
+\begin_inset Formula $\omega_{1}=\sqrt{\omega_{0}^{2}+\Omega^{2}}\simeq\omega_{0}$
+\end_inset
+
+.
+ En consecuencia, obtenemos:
+\begin_inset Formula 
+\[
+x'=\text{Re}\left(z\right)=a\cos\left(-\Omega t\right)\cos\left(\omega_{1}t+\phi\right)=a\cos\left(\Omega t\right)\cos\left(\omega_{1}t+\phi\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y'=a\sin\left(-\Omega t\right)\cos\left(\omega_{1}t+\phi\right)=-a\sin\left(\Omega t\right)\cos\left(\omega_{1}t+\phi\right)
+\]
+
+\end_inset
+
+Tener cuidado porque 
+\begin_inset Formula $a$
+\end_inset
+
+ puede ser complejo.
+ Llamarlo 
+\begin_inset Formula $z_{0}$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

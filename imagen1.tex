@@ -1,0 +1,16 @@
+\begin{tikzpicture}
+
+\draw (-2.4,2.4) -- (2.6,2.4);
+
+\draw (0.1,2.8) -- (0.1,1.9)--(-0.4,1.7)--(0.5,1.5)--(-0.4,1.3)--(0.5,1.1)--(-0.4,0.9)--(0.5,0.7)--(-0.4,0.5)--(0.5,0.3)--(-0.4,0.1)--(0.1,-0.1)--(0.1,-0.5);
+
+\fill  (0.1,-1) node (v1) {} circle (0.5);
+\node at (0.1,-1) [white] {$m$};
+\draw [blue,->] (v1) -- (0.1,-2.5) node [midway,right] {$P$};
+
+\draw [blue,->] (v1) -- (0.1,0.5) node [midway,right] {$F_e$};
+\node at (2.6,2.4) [red,right] {$V_g=0$};
+
+\draw [red,->] (-2.2,2.6) -- (-2.2,-1) node [near end,left] {X};
+\node at (-2.4,2.4) [red,left] {$x=0$};
+\end{tikzpicture}

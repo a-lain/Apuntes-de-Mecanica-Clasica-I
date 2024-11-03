@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+\draw [dashed](-3,0) node (v1) {} -- (1.4,0);
+\draw [fill] (v1) circle (0.1);
+\draw [->,thick, blue] (v1) -- (-2,0) node [midway, below]{$\vec{v}$};
+\draw  plot[smooth, tension=.7] coordinates {(v1) (-1.2,0.2) (0.4,1.2) (1.6,3)};
+
+\draw [fill] (0.7,-0.8)circle (0.1);
+\node at (1.0009,-0.7786) {$q'$};
+\draw [<->, thick, orange](0.7,0) --(0.7,-0.8) node [midway, right]{$b$};
+\node at (-3.3,0) {$\mu$};
+\draw [dashed] (-3,-0.8) -- (1.4,-0.8);
+\end{tikzpicture}

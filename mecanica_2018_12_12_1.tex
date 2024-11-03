@@ -1,0 +1,19 @@
+\begin{tikzpicture}
+\draw [<->] (-3,0) -- (3,0);
+\draw [dashed, teal] (-4.5,3) -- (4.5,-3);
+\draw [dashed, teal] (4.5,3) -- (-4.5,-3);
+\draw  [fill](2.1,0) node (v1) {} circle (0.1);
+\draw  [fill](-2.1,0) node (v2) {} circle (0.1);
+\draw [blue] (2.1504,1.4614) arc (34.1998:145.8:2.6)node [midway, above, scale=1.5]{$\theta$};
+\draw [blue, thick, |-|] (2.1,1) -- (2.1,0) node [midway, right]{$l_2$};
+\node at (1.9,-0.4) {$Z_e$};
+\draw [red, dashed] (-5.6,-3) -- (5.6,3);
+\draw [red, dashed] (-5.6,3) -- (5.6,-3);
+\draw  [blue, thick, |-|] (-2.1,0.8) -- (v2.center)node [midway, right]{$l_1$};
+\draw [orange] (1.7724,0.9266) arc (27.6003:151.2:2)node [midway, below, scale=1.5]{$\theta$};
+\draw[scale=1,domain=-1.8:1.8,smooth,variable=\x,blue, very thin] plot ({1.5*cosh(\x)}, {sinh(\x)});
+\draw[scale=1,domain=-1.8:1.8,smooth,variable=\x,blue] plot ({-1.5*cosh(\x)}, {sinh(\x)});
+\draw[scale=1,domain=-1.8:1.8,smooth,variable=\x,orange, very thin] plot ({2*cosh(\x)-0.5}, {sinh(\x)});
+\draw[scale=1,domain=-1.8:1.8,smooth,variable=\x,orange, thick] plot ({-2*cosh(\x)+0.5}, {sinh(\x)});
+
+\end{tikzpicture}

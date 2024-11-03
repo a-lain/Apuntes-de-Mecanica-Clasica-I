@@ -1,0 +1,9 @@
+\begin{tikzpicture}
+\draw [<->] (7.3,3.1) -- (7.3,2.1) node (v1) {} -- (8.3,2.1);
+\draw [->](v1.center) -- (6.8,1.6);
+\draw  [fill](5.7,3.1) circle (0.22) node [above=3] (v3) {$m_1$};
+\draw  [fill](8.9,1.1) circle (0.22) node [above=3] (v2) {$m_2$};
+\draw [-> , thick,orange] (v1.center) -- (8.9,1.1) node [midway, below] (v9) {$\vec{r}^*_2$};
+\draw [->, thick, green](v1.center) -- (5.7,3.1)node [midway, below] (v8) {$\vec{r}^*_1$};
+\draw [->, thick](9.6,2) -- (6.4,4.1) node [midway, above]{$\vec{r}$};
+\end{tikzpicture}

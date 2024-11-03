@@ -1,0 +1,116 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Principios de mec\'anica}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Conceptos b\'asicos: espacio y tiempo}{5}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Leyes de Newton}{6}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Definici\'on de masa y propiedad aditiva}{8}{subsubsection.1.2.1}
+\contentsline {paragraph}{Conclusi\'on:}{9}{section*.2}
+\contentsline {subsubsection}{\numberline {1.2.2}Fuerzas centrales conservativas}{9}{subsubsection.1.2.2}
+\contentsline {paragraph}{Nota:}{10}{section*.3}
+\contentsline {subsubsection}{\numberline {1.2.3}Ligaduras}{11}{subsubsection.1.2.3}
+\contentsline {paragraph}{Definici\'on:}{11}{section*.4}
+\contentsline {subsection}{\numberline {1.3}Momento lineal}{13}{subsection.1.3}
+\contentsline {paragraph}{Definici\'on (para una part\IeC {\'\i }cula):}{13}{section*.5}
+\contentsline {paragraph}{Definici\'on ($N$ part\IeC {\'\i }culas):}{14}{section*.6}
+\contentsline {paragraph}{Teorema de conservaci\'on:}{14}{section*.7}
+\contentsline {paragraph}{Impulso lineal:}{14}{section*.8}
+\contentsline {subsection}{\numberline {1.4}Momento angular}{14}{subsection.1.4}
+\contentsline {paragraph}{Definici\'on (1 part\IeC {\'\i }cula):}{14}{section*.9}
+\contentsline {paragraph}{Definici\'on ($N$ part\IeC {\'\i }culas):}{15}{section*.10}
+\contentsline {paragraph}{Nota:}{15}{section*.11}
+\contentsline {subsection}{\numberline {1.5}Momento de fuerzas}{15}{subsection.1.5}
+\contentsline {paragraph}{Definici\'on (1 part\IeC {\'\i }cula):}{15}{section*.12}
+\contentsline {paragraph}{Definici\'on ($N$ part\IeC {\'\i }culas):}{15}{section*.13}
+\contentsline {paragraph}{Teorema de conservaci\'on:}{15}{section*.14}
+\contentsline {paragraph}{Ejemplo:}{16}{section*.15}
+\contentsline {paragraph}{Impulso angular:}{16}{section*.16}
+\contentsline {subsection}{\numberline {1.6}Energ\IeC {\'\i }a}{16}{subsection.1.6}
+\contentsline {subsubsection}{\numberline {1.6.1}Energ\IeC {\'\i }a cin\'etica $E_{C}$, $T$}{16}{subsubsection.1.6.1}
+\contentsline {paragraph}{Definici\'on:}{16}{section*.17}
+\contentsline {subsubsection}{\numberline {1.6.2}Trabajo de una fuerza}{16}{subsubsection.1.6.2}
+\contentsline {paragraph}{Definici\'on:}{16}{section*.18}
+\contentsline {paragraph}{Teorema de la energ\IeC {\'\i }a cin\'etica:}{16}{section*.19}
+\contentsline {subsubsection}{\numberline {1.6.3}Energ\IeC {\'\i }a potencial $E_{p}$, $V$}{16}{subsubsection.1.6.3}
+\contentsline {paragraph}{Definici\'on:}{16}{section*.20}
+\contentsline {subsubsection}{\numberline {1.6.4}Energ\IeC {\'\i }a mec\'anica $E_{m}$,$E$}{17}{subsubsection.1.6.4}
+\contentsline {paragraph}{Definici\'on:}{17}{section*.21}
+\contentsline {paragraph}{Teorema de conservaci\'on:}{17}{section*.22}
+\contentsline {subparagraph}{Enunciado:}{17}{section*.23}
+\contentsline {subparagraph}{Demostraci\'on:}{17}{section*.24}
+\contentsline {subsection}{\numberline {1.7}Fuerzas conservativas}{17}{subsection.1.7}
+\contentsline {paragraph}{Definici\'on:}{17}{section*.25}
+\contentsline {paragraph}{El potencial no puede depender expl\IeC {\'\i }citamente del tiempo:}{18}{section*.26}
+\contentsline {paragraph}{Conclusi\'on:}{18}{section*.27}
+\contentsline {paragraph}{Ejemplo:}{18}{section*.28}
+\contentsline {subparagraph}{Nota:}{19}{section*.29}
+\contentsline {paragraph}{Ejemplo:}{19}{section*.30}
+\contentsline {paragraph}{Ejemplo:}{20}{section*.31}
+\contentsline {paragraph}{Ejemplo:}{22}{section*.32}
+\contentsline {paragraph}{Ejemplo:}{23}{section*.33}
+\contentsline {section}{\numberline {2}C\'alculo de variaciones. Ecuaciones de Euler-Lagrange}{24}{section.2}
+\contentsline {subsection}{\numberline {2.1}Expresi\'on de la posici\'on, la velocidad y la aceleraci\'on en coordenadas cil\IeC {\'\i }ndricas y esf\'ericas (ejercicio para casa)}{24}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Coordenadas polares $r,\varphi $}{24}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Coordenadas cil\IeC {\'\i }ndricas $r,\varphi ,z$}{25}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Coordenadas esf\'ericas $r,\varphi ,\theta $}{25}{subsubsection.2.1.3}
+\contentsline {subsection}{\numberline {2.2}Preliminares matem\'aticos}{26}{subsection.2.2}
+\contentsline {paragraph}{Definici\'on:}{26}{section*.34}
+\contentsline {paragraph}{Definici\'on:}{26}{section*.35}
+\contentsline {paragraph}{Ejemplos:}{26}{section*.36}
+\contentsline {paragraph}{Observaci\'on 1:}{27}{section*.37}
+\contentsline {paragraph}{Observaci\'on 2:}{27}{section*.38}
+\contentsline {paragraph}{Definici\'on:}{27}{section*.39}
+\contentsline {paragraph}{Observaci\'on 1:}{27}{section*.40}
+\contentsline {paragraph}{Definici\'on:}{28}{section*.41}
+\contentsline {subsection}{\numberline {2.3}Determinaci\'on de las ecuaciones de Euler-Lagrange}{28}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}La determinaci\'on de la ecuaci\'on de Euler-Lagrange gr\'aficamente}{30}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Determinaci\'on alternativa de la ecuaci\'on de Euler-Lagrange (extra\IeC {\'\i }do de TAYLOR, Mec\'anica Cl\'asica) (mucho m\'as sencillo)}{30}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Un ejemplo}{33}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Notaci\'on que vamos a usar en f\IeC {\'\i }sica}{33}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}Principio de Hamilton. Ecuaciones de Lagrange}{33}{subsection.2.8}
+\contentsline {paragraph}{Ejemplos:}{34}{section*.42}
+\contentsline {subsubsection}{\numberline {2.8.1}Ligaduras}{34}{subsubsection.2.8.1}
+\contentsline {subsubsection}{\numberline {2.8.2}Sistemas naturales}{34}{subsubsection.2.8.2}
+\contentsline {subsubsection}{\numberline {2.8.3}Sistemas forzados}{34}{subsubsection.2.8.3}
+\contentsline {subsubsection}{\numberline {2.8.4}Sistemas mec\'anicos ideales}{34}{subsubsection.2.8.4}
+\contentsline {subsubsection}{\numberline {2.8.5}Ejemplo: 1 part\IeC {\'\i }cula en 3 dimensiones}{35}{subsubsection.2.8.5}
+\contentsline {subsection}{\numberline {2.9}Momentos y fuerzas generalizadas}{35}{subsection.2.9}
+\contentsline {paragraph}{Definici\'on:}{35}{section*.43}
+\contentsline {paragraph}{Definici\'on:}{36}{section*.44}
+\contentsline {paragraph}{Observaci\'on 1:}{36}{section*.45}
+\contentsline {paragraph}{Observaci\'on 2:}{36}{section*.46}
+\contentsline {subparagraph}{Enunciado:}{36}{section*.47}
+\contentsline {subparagraph}{Demostraci\'on:}{36}{section*.48}
+\contentsline {paragraph}{Definici\'on:}{36}{section*.49}
+\contentsline {subsubsection}{\numberline {2.9.1}Ejemplo: el p\'endulo (2 coordenadas generalizadas)}{36}{subsubsection.2.9.1}
+\contentsline {paragraph}{Mediante el lagrangiano del sistema:}{36}{section*.50}
+\contentsline {paragraph}{Mediante Newton:}{37}{section*.51}
+\contentsline {paragraph}{Por momento angular medido desde el punto de anclaje del p\'endulo:}{37}{section*.52}
+\contentsline {paragraph}{Resoluci\'on (parcial) de la ecuaci\'on diferencial resultante:}{37}{section*.53}
+\contentsline {subsection}{\numberline {2.10}Fuerzas de ligadura $Q_{i}'$}{37}{subsection.2.10}
+\contentsline {subsubsection}{\numberline {2.10.1}Ejemplo: el p\'endulo}{38}{subsubsection.2.10.1}
+\contentsline {subsection}{\numberline {2.11}Principio de d'Alambert. Ecuaciones de Lagrange}{39}{subsection.2.11}
+\contentsline {subsubsection}{\numberline {2.11.1}Principio de trabajos virtuales para la fuerza (est\'atica)}{39}{subsubsection.2.11.1}
+\contentsline {paragraph}{Notaci\'on:}{40}{section*.54}
+\contentsline {subsubsection}{\numberline {2.11.2}Principio de trabajos virtuales para el momento (din\'amica)}{41}{subsubsection.2.11.2}
+\contentsline {paragraph}{Ejemplo:}{44}{section*.55}
+\contentsline {subsection}{\numberline {2.12}Ecuaciones de Hamilton}{44}{subsection.2.12}
+\contentsline {paragraph}{Definici\'on:}{44}{section*.56}
+\contentsline {paragraph}{Observaci\'on 1:}{44}{section*.57}
+\contentsline {paragraph}{Corolario 1:}{44}{section*.58}
+\contentsline {paragraph}{Observaci\'on 2:}{45}{section*.59}
+\contentsline {subsubsection}{\numberline {2.12.1}Conservaci\'on del Hamiltoniano}{45}{subsubsection.2.12.1}
+\contentsline {subsubsection}{\numberline {2.12.2}Estudio de las derivadas parciales}{45}{subsubsection.2.12.2}
+\contentsline {paragraph}{Caso particular (coordenadas c\IeC {\'\i }clicas):}{46}{section*.60}
+\contentsline {subsubsection}{\numberline {2.12.3}Ejemplo: el p\'endulo}{46}{subsubsection.2.12.3}
+\contentsline {subsubsection}{\numberline {2.12.4}Ecuaciones de Hamilton para una part\IeC {\'\i }cula en un campo cuyo potencial depende \'unicamente de la distancia al centro.}{47}{subsubsection.2.12.4}
+\contentsline {section}{\numberline {3}Movimiento oscilatorio}{48}{section.3}
+\contentsline {subsection}{\numberline {3.1}Ejemplos:}{48}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Oscilaciones arm\'onicas}{49}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Oscilaci\'on arm\'onica libre}{49}{subsubsection.3.2.1}
+\contentsline {paragraph}{Ejemplo:}{49}{section*.61}
+\contentsline {paragraph}{Ejemplo 2:}{49}{section*.62}
+\contentsline {subsubsection}{\numberline {3.2.2}La importancia del potencial}{50}{subsubsection.3.2.2}
+\contentsline {paragraph}{Ejercicio:}{50}{section*.63}
+\contentsline {paragraph}{Ejercicio:}{51}{section*.64}
+\contentsline {paragraph}{Ejercicio:}{51}{section*.65}
+\contentsline {subsubsection}{\numberline {3.2.3}Oscilaciones arm\'onicas libres}{51}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Oscilaci\'on forzada}{52}{subsubsection.3.2.4}

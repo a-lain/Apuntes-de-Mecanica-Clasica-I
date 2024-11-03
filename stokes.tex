@@ -1,0 +1,10 @@
+\begin{tikzpicture}
+
+\draw [thick, fill=orange] (0,0.5) node (v1) {} ellipse (1 and 0.4);
+\draw [very thick, ->, purple](v1.center) -- (0.5,1.5) node [near end, right]{$\vec{A}$};
+\draw [very thick, ->,blue] plot[smooth, tension=.7] coordinates { (0.1,0.105) (0.6,0.1823)};
+\node at (-0.3991,-0.1263) {$C$};
+\node at (0.3908,0.5064) {$S$};
+\draw [thick, ->, teal] (0,0.5) -- (0,1.5)node [near end, left]{$d\vec{S}$};
+\node at (0.4904,-0.099) [blue]{$d\vec{l}$};
+\end{tikzpicture}

@@ -1,0 +1,10 @@
+\begin{tikzpicture}
+
+\draw  (0,-0.5) node (v1) {} circle (1.5);
+\draw [purple, dashed] (0.5,-0.5) ellipse (1 and 0.75);
+\draw [fill] (v1) circle (0.1);
+\draw [|-|, thick, blue] (-0.5,-0.5) -- (v1.center) node [midway, below]{$r_1$};
+\draw [|-|, thick, orange](v1.center) -- (1.5,-0.5) node [midway, above] (v2) {$R=r_2$};
+\draw [->, thick, pink](1.5,-0.5) -- (1.5,0.5)node [near end, right] {$\vec{v}$};
+\draw [->, thick, purple](1.5,-0.5) -- (1.5,0)node [midway, right] {$\vec{v}'=\frac{\vec{v}}{2}$};
+\end{tikzpicture}

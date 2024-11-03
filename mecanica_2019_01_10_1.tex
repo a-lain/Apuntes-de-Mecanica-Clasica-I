@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+\draw [thick, fill=cyan] (1.5,0.5) node (v1) {} circle (1.5) node {$T$};
+\draw  [thick, fill=brown](v1) circle (1);
+\draw [thick] (-5.5,0.5) circle (0.5)node [scale=1.5]{$L$};
+\draw [->, thick, darkgray](-5.5,0.5) -- (0.6,1.6)node [midway, above]{$\vec{r}$};
+\draw  [fill](-0.7,0.5) circle (0.07) node [below]{$CM$};
+\draw  [rotate=45, fill, blue](1.5,0.7) node (v2) {} rectangle (1.7,0.6);
+\node at (1.1,1.7) {$\rho dV$};
+\draw [->,purple, thick](-5.5,0.5) -- (1.5,0.5) node [midway, below]{$\vec{R}$};
+
+\node [scale=1.5] at (1,0.9) {$T$};
+\draw [dashed] (v2.center) -- (-5.1,1.6);
+\draw (-4,0.5) arc (0:10:1.5) node [midway,right] {$\alpha$};
+\draw (-0.8991,1.5477) arc (-178.0019:-170:1.5) node [midway,left] {$\alpha$};
+\draw [->,white] (v1.center) -- (2,0.5) node [midway,below] {$\hat{i}$};
+\draw [->,white] (v1.center) -- (1.5,1) node [midway,right] {$\hat{j}$};
+\end{tikzpicture}

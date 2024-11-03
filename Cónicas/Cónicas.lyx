@@ -1,0 +1,357 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Cónicas
+\end_layout
+
+\begin_layout Standard
+Para las curvas cónicas se cumple:
+\end_layout
+
+\begin_layout Paragraph
+\begin_inset Formula 
+\[
+r\left[e\cos(\theta-\theta_{0})-\dfrac{k}{|k|}\right]=l
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Donde r es la distancia desde el foco de la cónica hasta el punto situado
+ en un ángulo 
+\begin_inset Formula $\theta$
+\end_inset
+
+, 
+\begin_inset Formula $\theta_{0}$
+\end_inset
+
+es la inclinación de la curva respecto al ángulo cero del eje de coordenadas,
+\emph on
+ k
+\emph default
+ es la parte de la fuerza independiente de la posición (aunque únicamente
+ está presente para indicar la naturaleza atractiva o repulsiva de la fuerza
+ central que crea la trayectoria) , 
+\emph on
+e
+\emph default
+ es la excentricidad de la curva y 
+\emph on
+l
+\emph default
+ es el 
+\emph on
+semi latus rectum
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+En función del valor de 
+\emph on
+
+\begin_inset Formula $e$
+\end_inset
+
+, 
+\emph default
+pueden distinguirse tres tipos de curvas cónicas: elipse, hipérbola y parábola.
+\end_layout
+
+\begin_layout Subsection
+Elipse
+\end_layout
+
+\begin_layout Standard
+Tiene lugar si el valor de la excentricidad está comprendido en el intervalo
+\begin_inset Formula $[0,1)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Para una elipse, las longitudes de los semiejes mayor y menor serán 
+\emph on
+a 
+\emph default
+y 
+\emph on
+b 
+\emph default
+respectivamente y
+\emph on
+ 
+\emph default
+la distancia de uno de los focos al centro, 
+\emph on
+c.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Elipse.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Se cumplen las siguientes relaciones:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+a^{2}=b^{2}+c^{2}\label{eq:pitel}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+l=\frac{b^{2}}{a}\label{eq:semel}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\overline{F_{1}X}+\overline{F_{2}X}=2a,\:\forall X\label{eq:propel}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un caso particular se da si 
+\begin_inset Formula $e=0$
+\end_inset
+
+, por lo que 
+\emph on
+r 
+\emph default
+será constante y la curva se llamará circunferencia.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Circunferencia.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Entonces 
+\begin_inset Formula $a=b,$
+\end_inset
+
+ por lo que 
+\begin_inset Formula $l=b=r.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Hipérbola
+\end_layout
+
+\begin_layout Standard
+Si la excentricidad de la cónica es superior a la unidad (
+\begin_inset Formula $e>1),$
+\end_inset
+
+ entonces aparecen dos ramas que tienden asintóticamente a dos rectas que
+ intersectan.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Hipérbola.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se cumplen las siguientes relaciones: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+c^{2}=a^{2}+b^{2}\label{eq:pithi}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+l=\frac{b^{2}}{a}\label{eq:semhi}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+|\overline{F_{1}X}-\overline{F_{2}X}|=2a,\:\forall X\label{eq:prophi}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Parábola 
+\end_layout
+
+\begin_layout Standard
+Cuando la excentricidad de la curva es de valor unidad (
+\begin_inset Formula $e=1)$
+\end_inset
+
+, la cónica descrita es una parábola.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Parábola.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Entonces se cumplen:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+l=2\overline{FV}\label{eq:sempa}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\overline{FX}=\overline{Xl_{x}},\:\forall X\label{eq:proppa}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,16 @@
+\begin{tikzpicture}
+
+\node at (0,0) {};
+\draw [<->] (-4,0) -- (4,0);
+\draw  [<->](0,3) -- (0,-3);
+\draw [dashed, purple] (-4,4) -- (4,-4);
+\draw [dashed, purple] (4,4) -- (-4,-4);
+
+\draw  [fill](1.5,0) node (v1) {} circle (0.1);
+\draw  [fill](-1.5,0) circle (0.1);
+\draw [->, thick, blue](v1.center) -- (1.5,1) node [midway, above right]{$y$};
+\draw [->, thick, orange](v1.center) -- (3.5,1) node [midway, above]{$r$};
+\draw [green,<-, thick] (2.8482,0.6576) arc (26.0013:0:1.5) node [midway, right]{$\theta$};
+\draw[scale=0.5,domain=-2.8:2.8,smooth,variable=\x,blue] plot ({cosh(\x)}, {sinh(\x)});
+\draw[scale=0.5,domain=-2.8:2.8,smooth,variable=\x,blue] plot ({-cosh(\x)}, {sinh(\x)});
+\end{tikzpicture}

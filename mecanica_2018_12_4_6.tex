@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+\draw  [thick](0,0) node (v2) {} circle (1);
+\node (v1) at (-2.2,0.7) {};
+\draw [blue, ->, very thick] (v1.center) -- (-0.7,0.7) node [midway, above]{$\vec{p}_1$};
+\draw [dashed] (v1) -- (-0.7,0.7) node (v3) {} -- (-0.6,2.1);
+\draw (-1.7,-0.2) -- (0.5,1.8);
+\draw [dashed] (v2.center) -- (-1.8,1.8);
+\draw [dashed] (v3) -- (0.1,0.7);
+
+\node at (-2,0) {$\alpha$};
+\node at (0,2) {$\alpha'$};
+\draw (-0.6372,1.698) arc (86.3994:42:1);
+\draw (-1.6998,0.6791) arc (-178.8025:-136.8:1);
+\draw [teal, ->, very thick] (v3.center) -- (-0.6,1.9)node [midway, above left]{$\vec{q}_1$};
+\draw [purple, ->, very thick](v2.center) -- (0.9,-0.9)node [midway, above]{$\vec{q}_2$};
+\node at (1.2,1) {$\alpha =\alpha'$};
+\end{tikzpicture}

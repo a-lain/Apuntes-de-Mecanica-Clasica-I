@@ -1,0 +1,30 @@
+\documentclass[tikz]{standalone}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{decorations.pathreplacing}
+\begin{document}
+
+\begin{tikzpicture}[dot/.style={draw,fill,circle,inner sep=1pt}]
+\draw[scale=1,domain=-2:2,smooth,variable=\x,blue] plot ({cosh(\x)}, {sinh(\x)});
+\draw[scale=1,domain=-2:2,smooth,variable=\x,blue] plot ({-cosh(\x)}, {sinh(\x)});
+\draw[scale=1,domain=-4:4,smooth,variable=\x,red, dashed] plot ({\x}, {\x});
+\draw[scale=1,domain=-4:4,smooth,variable=\x,red,dashed] plot ({-\x}, {\x});
+\node[dot,label={below :$O$}] (O) at (0,0) {};
+\node[dot,label={below:$$}] (a) at (1,0) {};
+\node[dot,label={below right:$F_2$}] (f2) at (1.414,0) {};
+\node[dot,label={below left:$F_1$}] (f1) at (-1.414,0) {};
+\node[dot,label={below left:$$}] (c) at (1,1) {};
+\draw[decorate,decoration=brace,draw=blue] (O) -- (f1);
+\draw[decorate,decoration=brace,draw=blue] (a) -- (O);
+\draw[decorate,decoration=brace,draw=blue] (O) -- (c);
+\draw[decorate,decoration=brace,draw=blue] (a) -- (c);
+\coordinate[label={below:$a$}] () at (0.5,0);
+\coordinate[label={below:$c$}] () at (-0.7,0);
+\coordinate[label={left:$b$}] () at (1,0.5);
+\coordinate[label={above left :$c$}] () at (0.5,0.5);
+\draw (1.5,1.5) arc (45:135:2.12cm);
+\coordinate[label={above :$\Theta$}] () at (0,2.12);
+\end{tikzpicture}
+
+\end{document}

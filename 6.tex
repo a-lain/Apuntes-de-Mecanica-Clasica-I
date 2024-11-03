@@ -1,0 +1,14 @@
+\begin{tikzpicture}
+\draw  (2,3) rectangle (3,-3.5);
+
+
+
+\draw  [fill] (2.5,2.4) node (v4) {} circle (0.2);
+
+
+\draw  [fill] (-2.5,-2.5) node (v1) {} circle (0.5);
+\draw [->, very thick, orange] (v1.center) -- (0,-2.5) node [midway, above, scale=2, orange]{$\vec{v}$};
+
+
+\draw (v4) -- (3.5,2.9) node [right,scale=2]{$O$};
+\end{tikzpicture}

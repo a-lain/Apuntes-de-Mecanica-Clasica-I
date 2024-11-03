@@ -1,0 +1,11 @@
+\begin{tikzpicture}
+
+\draw [->, dashed] (0,-2) -- (0,2);
+\node at (0.4,2.1) {$\vec{\omega}$};
+\draw  [thick](0,0) node (v1) {} ellipse (1.5 and 0.5);
+\draw [brown](v1.center) -- (-1.5,0) node [midway, above]{$R$};
+\draw  [->, thick, purple]  (0,-2) -- (1.2,-0.3)node [midway, right] (v2) {$\vec{r}$};
+\draw (0,-0.9) arc (90:55.2:1.1) node [midway, above]{$\alpha$};
+\draw [->, very thick,blue]  (1.2,-0.3) node (v3) {} -- (1.8,0)node [midway, below] (v2) {$\vec{v}$};
+\draw [thick, purple] (v1.center) -- (v3.center)node [midway, above, ]{$r\text{sin}{\alpha}$};
+\end{tikzpicture}

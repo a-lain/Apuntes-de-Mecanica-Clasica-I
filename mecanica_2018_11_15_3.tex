@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+
+\draw  (0,0.5) node (v1) {} ellipse (2.5 and 2);
+\draw  [fill](-1.8,0.5) circle (0.1);
+\draw [fill] (1.8,0.5) node (v2) {} circle (0.1);
+\draw [pink, thick] (0,2.5) node (v3) {} -- (v1.center) node [midway, left]{$b$};
+\draw [brown, thick] (v1.center) -- (v2.center)node [midway,below]{$c$};
+\draw [green, thick](v3.center) -- (v2.center)node [midway,right]{$a$};
+\node at (2.1,0.5) {O};
+\draw [|-|, orange, thick] (1.8,-0.1) -- (2.5,-0.1) node [midway, below]{$r_\text{m\'in}$};
+\draw [|-|, orange, thick](-2.5,0) -- (1.8,0)node [midway, below]{$r_\text{m\'ax}$};
+\end{tikzpicture}

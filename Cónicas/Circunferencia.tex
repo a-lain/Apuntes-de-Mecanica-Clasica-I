@@ -1,0 +1,19 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing}
+\begin{document}
+	\begin{tikzpicture}[dot/.style={draw,fill,circle,inner sep=1pt}]
+
+	\draw (0,0) circle (3);
+
+	\coordinate[label={below right:$O$}] (O) at (0,0);
+
+	\node[dot,label={135:$X$}] (X) at (135:{3} and {3}){};
+	\draw (O) -- (X);
+	
+	\draw[decorate,decoration=brace,draw=blue] (X) -- (O);
+	\coordinate[label={right:$r$}] (r) at (-1.06,1.17);
+
+		\end{tikzpicture}
+		
+\end{document}

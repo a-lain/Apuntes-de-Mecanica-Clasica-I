@@ -1,0 +1,16 @@
+\begin{tikzpicture}
+
+\draw  (0,0) node (v1) {} circle (1.5);
+\draw [->, thick, blue](0,-2) -- (0,2.5);
+\draw (v1.center) -- (-1.1,1) node (v2) {};
+\draw (v1.center) -- (-1.1,-1) node (v3) {};
+\draw [ultra thin](-2,0) -- (2,0);
+\node at (0.3,2.4) [blue] {$\vec{\omega}$};
+\draw[->, thick, orange] (v2.center) -- (-1.9,1)node [midway, above left]{$-m\vec{\omega }\times (\vec{\omega}\times \vec{R})$};
+\draw[->, thick, orange] (v3.center) -- (-1.9,-1)node [midway, below left]{$-m\vec{\omega }\times (\vec{\omega}\times \vec{R})$};
+\draw[purple]  (-0.6688,0.6022) arc (137.9995:178.8:0.9)node [midway, left]{$\lambda$};
+\draw [purple] (-0.5202,-0.4684) arc (-137.9994:-178.8:0.7)node [midway, left]{$\lambda$};
+\node at (0.2,0.2) {O};
+\node at (-0.4,1.6) {N};
+\node at (-0.4,-1.7) {S};
+\end{tikzpicture}

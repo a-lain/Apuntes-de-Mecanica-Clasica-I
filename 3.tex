@@ -1,0 +1,8 @@
+\begin{tikzpicture}
+
+\draw [ultra thick] (-3.5,-3.5) -- (3.5,-3.5);
+\draw  (0,-1) node (v1) {} circle (2.5);
+\draw [->, thick, red](v1.center) -- (4.5,-1) node [near end, above, scale=2] {$\vec{v}$};
+\draw [->, thick, purple](v1.center) -- (0,-3.5) node [near end, right, scale=2] {$\vec{R}$};
+\draw [->, thick, blue](-1.5,-1) arc (180:40:1.5) node [midway, above, scale=2] {$\vec{\omega}$};
+\end{tikzpicture}

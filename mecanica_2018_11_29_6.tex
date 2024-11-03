@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+
+\draw [fill] (-2.5,2) node (v1) {} circle (0.2);
+\draw [fill] (-2.5,-1) node (v2) {} circle (0.2);
+\draw [fill] (2,1.5) node (v3) {} circle (0.2);
+\draw [fill] (1.9,-0.4) node (v4) {} circle (0.2);
+\draw  (0,0.5) ellipse (1.5 and 1.25);
+\node at (0,0.5) [scale=2] {Choque};
+\draw [->, thick](v1.center) -- (-1.3,1.5) node [midway, above]{$\vec{v}_1$};
+\draw [->, thick] (v2.center) -- (-1.3,-0.5)node [midway, above]{$\vec{v}_2$};
+\draw [->, thick] (v3.center) -- (3.5,2)node [midway, above]{$\vec{u}_1$};
+\draw [->, thick] (v4.center) -- (3.5,-1)node [midway, above]{$\vec{u}_2$};
+\node at (-2.5,2.5) {$m_1$};
+\node at (-2.5,-0.5) {$m_2$};
+\node at (2,2) {$m_1$};
+\node at (1.9,0.1) {$m_2$};
+\end{tikzpicture}

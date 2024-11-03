@@ -1,0 +1,14 @@
+\begin{tikzpicture}
+
+\draw (-4.5,-4.5) node (v2) {} -- (-2.5,0) node (v1) {};
+
+\draw (3.5,-4.5) node (v3) {} -- (5,0) -- (-2.5,0);
+\draw (-4.5,-4.5) -- (3.5,-4.5);
+\draw  (0.3,-2.4) ellipse (0.6 and 0.3);
+\draw (0.7,-2.2) node (v4) {} -- (0.7,-2.6);
+\draw (0.7,-4.5) -- (0.7,-6.5);
+\draw (0.7,-2.2) -- (2.4,-1.4) node (v5) {} node [midway,above] {$L$};
+\draw [->, orange, thick] (2.4,-1.4) -- (2,-1.1) node [near end, above, orange, scale =1.5]{$\vec{v}$};
+\draw [fill] (v5) ellipse (0.2 and 0.1);
+\draw [->, orange, thick] (1.4,-5.6) -- (1.4,-6.4) node [near end, right, orange, scale=1.5]{$\dot{r}\approx 0$};
+\end{tikzpicture}

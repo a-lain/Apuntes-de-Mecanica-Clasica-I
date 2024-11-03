@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+
+\draw [fill, yellow] (-1.4,0) node (v1) {} circle (1);
+\draw [dashed]  (5.5,0) node (v2) {} circle (0.5);
+\draw  [fill](5.5,-1.8) circle (0.1);
+
+\draw [dashed] (v1) -- (5.5,-0.5);
+\draw [thick, purple](3.6,0) arc (0:-4.8:4.6) node [midway, right]{$\alpha$};
+\draw [thick] (v1.center) -- (v2.center);
+\node at (5.6,0.9) {$M_T$};
+\node at (-1.6,1.2) {Sol};
+\node at (5.9,-2.1) {$M_L$};
+\draw [fill]  (5.5,0.5) circle (0.2);
+\draw [->, thick, orange](v1.center) -- (5.5,0.5) node [midway, above] {$\vec{R}$};
+\node at (4.1,0.2) {$A$};
+\draw [dashed] (v2) circle (1.8);
+\end{tikzpicture}

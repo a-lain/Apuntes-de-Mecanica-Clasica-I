@@ -1,0 +1,14 @@
+\begin{tikzpicture}
+
+\draw [->] (0,0) node (v1) {} -- (2,0);
+\draw [->] (0,0) -- (0,2);
+\draw [->] (0,0) -- (-1,-1);
+\node at (2,0) [below] {$y$};
+\node at (0,2) [right] {$z$};
+\node at (-1,-1) [right] {$x$};
+\node at (-0.7,1.1) {\huge $t$};
+\fill [blue] (1.2,0.8) node (v2) {} circle (0.2);
+
+\draw [red,->] (v1.center)--(v2.center) node [midway,above] {$\vec{r}$};
+\node at (0,0) [below right] {O};
+\end{tikzpicture}

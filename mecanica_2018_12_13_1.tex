@@ -1,0 +1,16 @@
+\begin{tikzpicture}
+
+\draw [thick, <->] (0.5,2) -- (0.5,-0.5) node (v2) {} -- (3,-0.5);
+\draw [thick, <->, rotate=25, gray] (0.3,1.8) -- (0.3,-0.7) node (v1) {} -- (2.8,-0.7);
+\draw (v1);
+\draw [->, thick, teal](0.5,-0.5) -- (2,-0.5)node [midway, below]{$\hat{i}$};
+\draw[->, thick, teal] (0.5,-0.5) -- (0.5,1)node [near end, right]{$\hat{j}$};
+\draw [->, thick, purple, rotate=25](0.3,-0.7) -- (1.8,-0.7)node [near end, above]{$\hat{e}_1$};
+\draw[->, thick, purple, rotate=25] (0.3,-0.7) -- (0.3,0.8)node [near end, left]{$\hat{e}_2$};
+\node at (0.5,2.4) {Y};
+\node at (3.3,-0.6) {X};
+\node at (3.2,0.7) {X$_1$};
+\node at (-0.7,2) {X$_2$};
+\draw [orange](0.5,1.3) arc (90:112.8:1.8)node [midway, above, scale=1.5]{$\varphi$};
+\draw [orange] (1.6,-0.5) arc (0:24:1.1) node [midway, right, scale=1.5]{$\varphi$};
+\end{tikzpicture}

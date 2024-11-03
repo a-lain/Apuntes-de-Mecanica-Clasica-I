@@ -1,0 +1,9 @@
+\begin{tikzpicture}
+
+\draw  (0,0) node (v2) {} circle (0.7);
+\draw  (6.3,2.6) node (v1) {} circle (0.7);
+\node at (0,0) [align=center,below=22] {$m_1$\\$q_1$};
+\node at (6.3,2.6) [align=center,below=22] {$m_2$\\$q_2$};
+\draw [red,->] (v1.center) -- (v2.center) node [midway,above=2] {$\vec{r}_{12}$};
+\draw [blue,->] (0,-0.1) -- (2.2,0.8) node [near end,below] {$\vec{F}_{12}$};
+\end{tikzpicture}

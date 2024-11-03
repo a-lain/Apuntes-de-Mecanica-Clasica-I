@@ -1,0 +1,14 @@
+\begin{tikzpicture}
+
+\node (v1) at (-3,-3) {};
+\draw [fill] (v1) circle [radius=0.2];;
+\node (v2) at (2.5,2) {};
+\draw [fill] (v2) circle [radius=0.2];;
+\draw  plot[smooth, tension=.7] coordinates {(v1) (-3,-1.5) (-2,-1.5) (-0.5,-2.5) (0,-2) (-0.5,-1) (-1,0) (-0.5,0.5) (0.5,0) (1,1) (2,1) (v2)};
+\node at (-3.5,-3) {$x_1$};
+\node at (3,2) {$x_2$};
+
+
+\node (v3) at (-1.5,-1.8) {};
+\draw [red, ultra thick] (-2,-1.5) -- (v3) node [black, midway, below left] {$dl$};
+\end{tikzpicture}

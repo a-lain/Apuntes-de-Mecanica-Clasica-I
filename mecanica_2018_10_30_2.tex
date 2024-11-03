@@ -1,0 +1,14 @@
+\begin{tikzpicture}
+
+\draw  (-0.2,-0.2) node (v1) {} ellipse (1.4 and 0.8);
+\draw [->, thick, orange] (v1.center) -- (1.05,0.15) node [midway, above left, scale=0.5] (v2) {$\vec{r}_0 \equiv \vec{c}$};
+\draw [->, thick,blue](1.05,0.15) node (v3) {} -- (0.5,0.65) node [midway, right, scale=0.5] (v2) {$\vec{v}_0$};
+
+\draw [dashed](-0.85,0.5) -- (0.5,-0.9);
+\draw [dashed](1.05,0.15) -- (-1.5,-0.55);
+\node [scale=0.5, green] at (-0.7,0.1) {$\vec{d}$};
+\node [scale=0.5, orange] at (-0.8,-0.5) {$-\vec{c}$};
+\node [scale=0.5, green] at (0.4,-0.6) {$-\vec{d}$};
+\draw [->,purple] (v1.center) -- (1.2,-0.2) node[midway,below,scale=0.5] {$\vec{a}$};
+\draw [->,purple] (v1.center) -- (-0.2,-1) node[midway,right,scale=0.5] {$\vec{b}$};
+\end{tikzpicture}

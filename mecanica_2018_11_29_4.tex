@@ -1,0 +1,9 @@
+\begin{tikzpicture}
+
+\draw [dashed, purple] (-4.5,3) -- (4.5,-3);
+\draw [dashed, purple] (4.5,3) -- (-4.5,-3);
+\draw  [fill](1.8,0) node (v1) {} circle (0.1);
+
+\draw[scale=1,domain=-1.8:1.8,smooth,variable=\x,blue] plot ({cosh(\x)-5}, {sinh(\x)});
+\draw[scale=1,domain=-1.8:1.8,smooth,variable=\x,blue] plot ({-3*cosh(\x)}, {sinh(\x)});
+\end{tikzpicture}

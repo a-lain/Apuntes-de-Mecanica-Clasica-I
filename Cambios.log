@@ -1,0 +1,24 @@
+Aqui voy anotando los cambios que he realizado. 
+La estructura que voy a usar es:
+----------------------------------------------------
+[año, mes, día]|
+----------------
+    ORIGINAL ""
+    CAMBIO ""
+----------------------------------------------------
+Marcaré con un * el lugar del cambio
+--------------------------------------------------------------------------------------------------------------------------------------------
+[2018/12/31]|
+-------------
+    ORIGINAL "Lema 1. El gradiente de una escalar función φ : Ω ⊆ R3 → R en coordenadas esféricas (r, θ, φ) viene dado por la expresión:"
+    CAMBIO "Lema 1. El gradiente de una *función escalar φ : Ω ⊆ R3 → R en coordenadas esféricas (r, θ, φ) viene dado por la expresión:"
+
+    ORIGINAL "Definición 34. Sea S un sistema de N partículas. Un conjunto de coordenadas {qk }k=1,...,n del sistema S se dice natural sistema si la relación entre..."
+    CAMBIO "Definición 34. Sea S un sistema de N partículas. Un conjunto de coordenadas {qk }k=1,...,n del sistema S se dice natural * si la relación entre..."
+
+Además, he añadido los dibujos: Circuito RLC, superficie con vector para teorema de Stokes y coordenadas polares, cilíndricas y esféricas. Estan insertados.
+----------------------------------------------------
+
+
+
+

@@ -1,0 +1,22 @@
+\begin{tikzpicture}
+
+\draw  (0,0) node (v1) {} circle (1.5);
+\draw [fill, white] (0,1.6) rectangle (2.1,-1.8);
+\draw [->, thick, blue](0,-2) -- (0,2.5);
+\draw (v1.center) -- (-1.1,1) node (v2) {};
+\draw (v1.center) -- (-1.1,-1) node (v3) {};
+\draw [ultra thin](-2,0) -- (1.1,0);
+\node at (0.3,2.4) [blue] {$\vec{\omega}$};
+\node at (-0.1,0.4) {O};
+\node at (0.3,1.5) {N};
+\node at (0.3,-1.7) {S};
+\draw [fill] (-1.8,1.6) circle (0.1);
+\draw [fill] (-1.8,-1.6) circle (0.1);
+\draw [->, thick, teal](-1.8,1.6) -- (-1.3,1.2) node[midway, above]{$\vec{v}'$};
+\draw [->, thick, teal](-1.8,-1.6) -- (-1.3,-1.2)node[midway, below]{$\vec{v}'$};
+
+\draw  (v2) node (v5) {} circle (0.25);
+\draw  (v3) node (v4) {} circle (0.25);
+\draw [fill] (v4) circle (0.1);
+\draw [fill]  (v5) circle (0.1);
+\end{tikzpicture}

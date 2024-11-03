@@ -1,0 +1,13 @@
+\begin{tikzpicture}
+\draw [blue,thick,domain=-4:4, rotate=90] plot (\x,0.1*\x*\x-1);
+\draw [purple,thick,domain=-2.5:2.5, rotate=-90] plot (\x,\x*\x-1);
+\draw [dashed, purple]  (-0.4,3.7) node (v3) {} circle (0.2);
+\draw  [dashed, teal](0.1,-1) node (v4) {} circle (0.2);
+\draw [fill, teal] (-0.6,0.6) node (v1) {} circle (0.2);
+\draw [fill, purple] (0.9,-1) node (v2) {} circle (0.2);
+\draw [dashed] (v1.center) -- (v2.center);
+\draw[dashed] (v3.center) -- (v4.center);
+
+\draw [ultra thin](-4,0) -- (4,0);
+\draw [fill](0,0) circle [radius=0.1] node [above]{$CM$};
+\end{tikzpicture}
